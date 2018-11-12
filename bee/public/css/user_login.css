@@ -1,0 +1,191 @@
+*{
+  text-align: center;
+}
+.cotn_principal {
+  width: 100%;
+  height: 100%;
+}
+.cont_centrar {
+  position: relative;
+  float: left;
+   width: 100%;    
+}
+.cont_login {
+  position: relative;
+  width: 640px;
+  left: 50%;
+  margin-left: -320px;
+  
+}
+.cont_back_info {  
+  position: relative;
+  float: left;
+  width: 640px;
+  height: 280px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-top: 100px;
+  box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.5);
+}
+
+.cont_forms {
+  position: absolute;
+  overflow: hidden;
+  top:100px;
+  left: 0px;
+  width: 320px;
+  height: 280px;
+  background-color: #eee;
+  transition: all 0.5s;
+}
+/*激活公共样式*/
+.cont_forms_active_login,.cont_forms_active_sign_up{
+  box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.5);
+  height: 420px;  
+  top:20px;
+  left: 0px;
+  transition: all 0.5s;
+  z-index: 2;
+}
+.cont_forms_active_login{
+  left: 0px;
+}
+.cont_forms_active_sign_up{
+  left: 320px;
+}
+/*背景图公共*/
+.cont_img_back_,.cont_img_back_grey{
+  position: absolute;
+  width: 950px;
+  top:-80px;
+  left: -116px;
+}
+.cont_img_back_ > img,.cont_img_back_grey > img {
+  width: 100%;
+  animation-name: animar_fondo;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.cont_img_back_grey > img {
+  opacity: 0.2;
+}
+.cont_img_back_ > img{
+  opacity: 0.3;
+}
+.cont_forms_active_login > .cont_img_back_ {
+    top:0px;  
+    transition: all 0.5s;
+}
+
+.cont_forms_active_sign_up > .cont_img_back_ {
+  top:0px;
+  left: -435px;
+  transition: all 0.5s;
+}
+ 
+
+.cont_info_log_sign_up {
+ position: absolute;
+  width: 640px;
+  height: 280px;
+  top: 100px;
+  z-index: 1;
+} 
+
+.col_md_login ,.col_md_sign_up {
+  position: relative;
+  float: left;
+  width: 50%;  
+}
+
+.cont_ba_opcitiy > h2,.col_md_login > h2{
+  font-weight: 400;
+  color: #3c2314;
+  font-size: 25px;
+}
+.col_md_login > h2 {
+  margin-top: 70px;
+}
+.cont_ba_opcitiy > p,.col_md_login > p{
+  font-weight: 400;
+  margin-top: 15px;
+  color: #857a73;
+  font-size:12px;
+}
+/*背景文字*/
+.cont_ba_opcitiy {
+  position: relative;
+  background-color: rgba(200, 180, 155, 0.3);
+  width: 80%;
+  border-radius:3px;
+  padding: 15px 0px;
+  margin: 60px auto;
+}
+/*按钮公共样式*/
+.btn_sign_up,.btn_login{
+  border: none;
+  padding: 10px;
+  width: 200px;
+  border-radius:3px;
+  box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn_sign_up { 
+  background-color: #3C2314;
+  color: #efdbb2;
+}
+.btn_login {
+  background-color: #efdbb2;
+  color: #3C2314;
+}
+
+@-webkit-keyframes animar_fondo {
+  from {
+transform: scale(1) translate(0px); }
+  to {
+transform: scale(1.5) translate(50px); }
+}
+
+.cont_form_login,.cont_form_sign_up{
+  position: absolute;
+  width: 320px;
+  opacity: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.cont_form_sign_up {
+  float: left;
+}
+
+.cont_form_login > input,.cont_form_sign_up > input{
+  text-align: left;
+  padding: 12px 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 260px;
+  border: none;
+  color: #3c2314;
+}
+
+.cont_form_login > h2,.cont_form_sign_up > h2 {
+  font-weight:400;
+  color: #3c2314;
+  font-size: 25px;
+}
+.cont_form_login > h2{
+  margin-top:110px;
+}
+.cont_form_sign_up > h2 {
+  margin-top: 41px;
+}
+.cont_form_login > a,.cont_form_sign_up > a  {
+    color: #3c2314;
+    position: relative;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+}

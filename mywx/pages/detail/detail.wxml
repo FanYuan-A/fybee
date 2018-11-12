@@ -1,0 +1,107 @@
+<view class="slider">
+    <swiper autoplay interval="3000" duration="300" indicator-dots="{{true}}" indicator-color="#C8B49B" indicator-active-color="#3C2314">
+        <swiper-item>
+            <image src="http://images.ebeecake.com/img/4055.jpg" mode="aspectFill" lazy-load/>
+        </swiper-item>
+        <swiper-item>
+            <image src="http://images.ebeecake.com/img/4054.jpg" mode="aspectFill" lazy-load/>
+        </swiper-item>
+        <swiper-item>
+            <image src="http://images.ebeecake.com/img/4053.jpg" mode="aspectFill" lazy-load/>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="del-info">
+    <text class="del-info-title">玫瑰荔枝慕斯</text>
+    <text class="del-info-desc">亲爱的，我爱你，以后就这样看着你，每一天有同样呼吸，你是否愿意？亲爱的，我需要你，再往前走那一小步，准备了你要的幸福，等你说：我愿意，这是世间最动人的回应!
+    </text>
+    <view class="honey-star">
+        <text>密度</text>
+        <view class="honey-star-index">
+            <text class="star-after">●●●●●</text>
+            <text class="star-before">●●●●●</text>
+        </view>
+    </view>
+    <view class="cheese-star">
+        <text>芝度</text>
+        <view class="honey-star-index">
+            <text class="star-after">●●●●●</text>
+            <text class="star-before">●●●●●</text>
+        </view>
+    </view>
+    <view>
+        <text class="del-price">¥999</text>
+    </view>
+</view>
+<view class="bghui"></view>
+<view class="del-size lookitem arrow">
+    <text>规格</text>
+    <text class="del-has-size">已选择约15cm</text>
+</view>
+<view class="select_specs">
+    <view class="select_top">
+      <image src="http://images.ebeecake.com/img/4055.jpg" mode="aspectFill" lazy-load  class="xiaotu"/>
+      <view class="del-info">
+        <text class="select-title">玫瑰荔枝慕斯</text>
+        <text class="select-price">¥999</text>
+        <text class="del-has-size">已选择约15cm</text>
+      </view>
+        <text class="close">×</text>
+    </view>
+    <view>
+        <text>蛋糕尺寸</text>
+    </view>
+    <view class='option'>
+        <view class='option-item selected'>
+            <text>365天/99元</text>
+        </view>
+        <view class='option-item'>
+            <text>180天/78元</text>
+        </view>
+        <view class='option-item'>
+            <text>90天/68元</text>
+        </view>
+        <view class='option-item'>
+            <text>30天/25元</text>
+        </view>
+    </view>
+</view>
+
+<view class="bghui"></view>
+<view class="del-img">
+    <image src="http://images.ebeecake.com/img_w/4030.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4031.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4032.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4033.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4034.jpg" mode="scaleToFilll" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4035.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4036.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4037.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4038.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4039.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4040.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4041.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4042.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4043.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4044.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4045.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4046.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4047.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4048.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4049.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4050.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4051.jpg" mode="scaleToFill" lazy-load></image>
+    <image src="http://images.ebeecake.com/img_w/4052.jpg" mode="scaleToFill" lazy-load></image>
+</view>
+<view class="del-btns">
+    <view class="collect-btn">
+        <text class="collect-after">♡</text>
+        <text class="collect-before">♥</text>
+        <text>收藏</text>
+    </view>
+    <view class="chat-btn">
+        <image src="/assets/images/header_message.png"></image>
+        <text>咨询</text>
+    </view>
+    <view class="buy-btn">立即订购</view>
+</view>

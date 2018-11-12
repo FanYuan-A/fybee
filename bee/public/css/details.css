@@ -1,0 +1,177 @@
+.container{
+    min-width: 960px;
+    margin:0 auto;
+}
+.carousel{
+    clear: both;
+}
+#carousel_list li{
+    width:100%;
+    height: 650px;
+}
+#carousel_list li a{
+    display: block;
+    width:100% !important;
+    height: 650px;
+
+}
+#carousel_list li#d1{
+    background: url("../img/img_w/3593.jpg") center center no-repeat;
+}
+#carousel_list li#d2{
+    display: none;
+    background: url("../img/img_w/3594.jpg") center center no-repeat;
+}
+#carousel_list li#d3{
+    display: none;
+    background: url("../img/img_w/3595.jpg") center center no-repeat;
+}
+
+/*导航指示器*/
+.carousel .carousel_slide{
+    clear: both;
+    position:relative;
+}
+.carousel .carousel_slide #slide{
+    position:absolute;
+    bottom:30px;
+    left:125px;
+}
+.carousel .carousel_slide #slide li{
+    margin-left:25px;
+}
+.carousel .carousel_slide #slide li a{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    border:2px solid #C8B49B;
+    border-radius: 50%;
+    background: rgba(255,255,255,.2);
+}
+.carousel .carousel_slide #slide li.slide_active a{
+    background:rgba(60,35,20,.7);
+
+}
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+/*蛋糕详细信息*/
+.detail_info{
+    border:1px solid #e7e7e7;
+    width: 420px;
+    padding: 30px 5px;
+    position: absolute;
+    left: 58%;
+    top:80px;
+}
+
+.detail_info h1{
+    font-size:28px;
+    line-height: 28px;
+    font-weight: normal;
+    margin: 0 15px 30px;
+}
+.detail_info span,.detail_info p{
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 15px;
+}
+.detail_info p,.size_wrap{
+    margin-top: 25px;
+}
+
+.size_wrap .size_ccimg,.size_wrap .size_detail{
+    float: left;
+}
+
+.size_wrap .size_detail .size_sizes i,.size_wrap .size_detail .size_covers i,.size_wrap .size_detail .size_numbers i,.size_wrap .size_detail .size_times i{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.size_wrap .size_detail .size_sizes i{
+    background: url(../img/img_c/size/sizes25.png) no-repeat;
+}
+.size_wrap .size_detail .size_covers i{
+    background: url(../img/img_c/size/covers25.png) no-repeat;
+}
+.size_wrap .size_detail .size_numbers i{
+    background: url(../img/img_c/size/numbers25.png) no-repeat;
+}
+.size_wrap .size_detail .size_times i{
+    background: url(../img/img_c/size/times25.png) no-repeat;
+}
+.select_box ul li{
+    display: inline-block;
+    border: 1px solid #C8B49B;
+    padding: 0 10px;
+    min-width: 52px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.select_box ul li.default{
+    border: 1px solid #3C2314;
+    background: url(../img/img_c/size/selected.png) bottom right no-repeat;
+}
+.size_wrap .size_detail .size_price{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#EB_btns a{
+    display: inline-block;
+    width: 170px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+
+}
+#EB_btns .add_bug{
+    border: 1px solid #3C2314;
+    background: #3C2314;
+    color: #FBF5DD;
+    margin-right: 30px;
+}
+#EB_btns .buy_now{
+    border: 1px solid #E9E9E9;
+}
+
+.detail_info .select_box,#EB_btns{
+    margin:0 15px;
+}
+.star{
+    background: url("../img/images/star.png") no-repeat;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 130px 0 0;
+}
+.star1{
+    background-position: 44px 0px;
+}
+.star2{
+    background-position: 44px -34px;
+}
+.star3{
+    background-position: 44px -68px;
+}
+.star4{
+    background-position: 44px -102px;
+}
+.star5{
+     background-position: 44px -136px;
+}
+.detail_main{
+    margin_top:100px;
+}
+.detail_main img{
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 0;
+}

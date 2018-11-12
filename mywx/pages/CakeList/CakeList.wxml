@@ -1,0 +1,112 @@
+<!--pages/CakeList/CakeList.wxml-->
+<view class="row">
+    <view class="cakelist" wx:for="{{cakelist}}" wx:key="{{id}}">
+      <image src="{{item.img_url}}" lazy-load mode="aspectFill" class="cakelistimg" bindtap="showDetail" data-cid="{{item.id}}"/>
+      <view class="cakeinfo">
+        <text class="caketitle ell">{{item.name}}</text>
+        <text class="cakeprice">¥335起</text>
+      </view>
+      <view class="cake-pj">
+        <text>436人评价</text>
+        <text>最快4小时送达</text>
+      </view>
+    </view>
+</view>
+<view class="loadmore loading" wx:if="{{hasMore}}">
+    正在加载
+</view>
+<view class="daodi" wx:else="{{hasMore == false }}">
+    主人已经到底了
+</view>
+<!-- 
+    <view class="cakelist">
+      <image src="http://images.ebeecake.com/img/2195.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+      <view class="cakeinfo">
+        <text class="caketitle">奶油杏仁蛋糕</text>
+        <text class="cakeprice">¥335起</text>
+      </view>
+      <view class="cake-pj">
+        <text>436人评价</text>
+        <text>最快4小时送达</text>
+      </view>
+    </view>
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/2203.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">蜂蜜蛋糕</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view>
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/2872.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">牛油果低脂蛋糕</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view>
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/3771.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">薄荷冰淇淋蛋糕</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view>
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/2203.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">蜂蜜蛋糕</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view>
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/2227.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">提拉米苏蛋糕</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view>
+
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/2057.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">回归90(多口味)</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view>
+    <view class="cakelist">
+        <image src="http://images.ebeecake.com/img/2115.jpg" class="cakelistimg" lazy-load mode="aspectFill"/>
+        <view class="cakeinfo">
+            <text class="caketitle">朗姆冰淇淋蛋糕</text>
+            <text class="cakeprice">¥335起</text>
+        </view>
+        <view class="cake-pj">
+            <text>436人评价</text>
+            <text>最快4小时送达</text>
+        </view>
+    </view> -->
+
+

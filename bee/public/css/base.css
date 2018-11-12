@@ -1,0 +1,164 @@
+/*公共样式*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif, tahoma;
+    letter-spacing: 1.5px;
+}
+#index,#header,#footer{
+    min-width: 1000px;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color:#3C2314;
+}
+a:hover,a.active{
+    color:#C8B49B;
+}
+
+ul,ol{
+    list-style:none;
+}
+div:before{
+    content:'';
+    display:table;
+}
+div:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.my_header{
+    width:100%;
+}
+.my_footer{
+    width:100%;
+    height: 35rem;
+}
+/*头部样式*/
+
+ul li,.home_head .nav .nav_logo, .nav .nav_right .shop_car,nav .nav_right .nav_login{
+    float:left;
+}
+ nav .nav_right,.nav .nav_right .shop_car,.nav .nav_right .nav_login{
+    float:right;
+}
+.home_head .nav{
+    position: absolute;
+    width:100%;
+    height:100px;
+    padding:0 15rem;
+    margin:0 auto;
+    text-align: center;
+    top:50px;
+    left:0;
+
+}
+
+nav .nav_text ul li,
+nav .nav_right{
+    padding:40px 20px;
+}
+.nav div:after{  clear: none  }
+nav .nav_right .shop_car{
+    margin-left:30px;
+    position: relative;
+}
+.nav .nav_right>.shop_car>i>a>img{
+    height: 26px;
+    width: 22px;
+}
+.nav .shop_car em{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #3C2314;
+    color: #FBF5DD;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    background: #3C2314;
+    border-radius: 10px;
+    position: absolute;
+    left: 28px;
+    top: 4px;
+    letter-spacing: .5px;
+}
+/*蛋糕商品样式*/
+.home_floor{
+    width:1162px;
+    margin:0 auto;
+}
+.home_floor .floor .cake_item{
+    margin-top:20px;
+}
+/*清除浮动给ul造成的高度影响*/
+.home_floor .floor .cake_item ul:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.home_floor .floor .cake_item ul li{
+    height:280px;
+    padding: 30px 5px;
+}
+.home_floor .floor .cake_item ul li a{
+    display: block;
+    width:280px;
+    height:280px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*蛋糕标题字*/
+.home_floor .floor .cake_item .cake_item_info{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #e7e7e7;
+    left: 14px;
+    bottom: 25px;
+    background-color: rgba(255,255,255,.7);
+    z-index: 100;
+}
+.home_floor .floor .cake_item ul li a h3{
+    color:#3C2314;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.home_floor .floor .cake_item ul li a h4{
+    color:#AA8764;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+/*上下不要超过100否则字看不见了*/
+.home_floor .floor .cake_item ul li .imgxia img{
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index:10;   
+}
+/*.home_floor .floor .cake_item ul li a:hover{
+    position:relative;
+    left: 5px;
+    bottom: 5px;;
+    z-index:90;
+    display: block;
+}*/
+.home_floor .floor .cake_item ul li .imgshang img{
+    z-index:20;
+    position:relative;
+    left:0;
+    bottom:0;
+    
+}
+.home_floor .floor .cake_item ul li a:hover .imgxia img{
+    transition:all .5s ease-out;
+	transform:scale(1.2);
+    z-index:30;
+}

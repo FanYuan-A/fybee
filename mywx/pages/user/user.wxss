@@ -1,0 +1,48 @@
+page{
+    color:#3C2314;
+}
+.active{
+    position:relative;
+}
+
+.bg-img{
+    width:100%;
+    height:342rpx;
+}
+.avatar-img{
+    width:130rpx;
+    height:130rpx;
+    border:8rpx solid rgba(0,0,0,0.2);
+    border-radius:50%;
+    position:absolute;
+    top:70rpx;
+    left:70rpx;
+}
+.lookstate{
+    display: flex;
+    flex-wrap:nowrap;
+    font-size:14px;
+    color:rgba(60,35,20,0.5);
+}
+.lookAll{
+    position:relative;
+    left: 200rpx;
+    font-size:14px;
+    color:rgba(60,35,20,0.5);
+
+}
+.lookstate-item{
+    width:25%;
+    height:150rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lookstate-item image{
+    width:60rpx;
+    height:60rpx;
+    margin-bottom: 15rpx;
+}
+
+

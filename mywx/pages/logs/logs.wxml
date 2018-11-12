@@ -1,0 +1,59 @@
+<!--logs.wxml-->
+<view class="slider">
+  <swiper autoplay interval="3000" indicator-color="#fff" indicator-active-color="3C2314">
+    <swiper-item wx:for="{{lunbo}}" wx:key="id">
+      <image src="{{item.img_url}}" mode="scaleToFill" lazy-load width="375" height="150"/>  
+    </swiper-item>
+  </swiper>
+</view>
+<view class="index-nav">
+  <view class="nav-item">
+    <image src="/assets/images/ico_ny.jpg" bindtap="showlist"/>
+    <text>奶油蛋糕</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/ico_kz.jpg"/>
+    <text>生日馈赠</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/ico_qkl.jpg"/>
+    <text>巧克力蛋糕</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/ico_zs.jpg"/>
+    <text>芝士蛋糕</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/ico_bjl.jpg"/>
+    <text>冰淇淋蛋糕</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/pg.png"/>
+    <text>送全国</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/ico_rq.jpg"/>
+    <text>人气热销</text>
+  </view>
+  <view class="nav-item">
+    <image src="/assets/images/ico_hp.jpg"/>
+    <text>好评优选</text>
+  </view>
+</view> 
+<view class="index-new">
+    <image src="http://images.ebeecake.com/images/kfxwc/wb.jpg" mode="aspectFill" lazy-load class="new-img"/>
+    <text class="new-title">苹果夹心芝士</text>
+    <view class="price">
+      <text>¥35起</text>
+      <text class="msq-btn">马上抢</text>
+    </view>  
+</view>
+<view class="index-new">
+    <image src="http://images.ebeecake.com/img_w/3268.jpg" mode="aspectFill" lazy-load class="new-img"/>
+    <text class="new-title">桃芝|樱桃芝士蛋糕</text>
+    <view class="price">
+      <text>¥168起</text>
+      <text class="msq-btn">马上抢</text>
+    </view>  
+</view>
+

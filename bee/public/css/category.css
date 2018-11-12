@@ -1,0 +1,54 @@
+.cxnavbar{
+    width: 1162px;
+    margin: 98px auto 0;
+}
+ul li{
+    float: left;
+}
+.cxnavbar div dl dt,.cxnavbar div dl dd{
+    display: block;
+    float:left;
+    height: 48px;
+    line-height: 48px;
+}
+.cxnavbar div dl dt{
+    color:#aaa;
+    margin:0 30px;
+}
+.cxnavbar div dl dd{
+    padding-left:30px;
+}
+.cxnavbar div dl dd a{
+    color:#3C2314;
+}
+.cxnavbar dl dd a.active{
+    color:#C8B49B;
+}
+.home_floor{
+    margin-top: 50px;
+    border-top:1px solid #e9e9e9;
+}
+h2.quanguo{
+    width:100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color:#3C2314;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

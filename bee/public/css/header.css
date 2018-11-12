@@ -1,0 +1,9 @@
+ nav .nav_text ul li,nav .nav_right{
+    padding:10px 20px;
+}
+ .home_head .nav{
+    height:70px;
+    padding:0 15rem;
+    top:20px;
+     line-height: 70px;
+}

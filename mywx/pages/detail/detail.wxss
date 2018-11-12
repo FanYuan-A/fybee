@@ -1,0 +1,186 @@
+page{
+    color:#3C2314;
+}
+.slider,.slider image,swiper{
+    width:100%;
+    height:400rpx;
+}
+.del-info{
+    display:flex;
+    flex-direction: column;
+    padding:20rpx 30rpx;
+}
+.del-info-title{
+    font-size:16px;
+    padding-bottom: 20rpx;
+}
+.del-info-desc{
+    font-size:14px;
+    color:#bbb;
+    padding-bottom: 20rpx;
+}
+.del-price{
+    color: #ff0323;
+    padding-bottom: 20rpx;
+}
+.honey-star,.cheese-star {
+    display:flex;
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 20rpx;
+}
+.honey-star-index,.honey-star-index{
+    position:relative;
+    margin-left:25rpx;
+    top:0;
+    left:0;
+}
+.star-after{
+    color:#e2e2e2;
+    font-size: 20px;
+}
+.star-before{
+    position:absolute;
+    color:#FABE00;
+    font-size: 20px;
+    top:0;
+    left:0;
+    width:80%;
+    overflow:hidden;
+}
+.del-size{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.del-has-size{
+    width: 500rpx;
+    font-size:14px;
+    color:#999;
+}
+/*底部按钮组*/
+.del-btns{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100rpx;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+/*收藏*/
+.collect-btn,.chat-btn{
+    display:flex;
+    flex-direction: column;
+    font-size:14px;
+    align-items: center;
+    height:100%;
+    background:#fff;
+}
+.del-btns image{
+    width:30rpx;
+    height:27rpx;
+    margin:15rpx 0;
+}
+/*收藏*/
+.collect-btn{
+    width:20%;
+    border-top:1rpx solid #ddd;
+}
+/*咨询*/
+.chat-btn{
+    width:20%;
+    border-top:1rpx solid #ddd;
+    border-left: 1rpx solid #ddd;
+}
+/*购买*/
+.buy-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:60%;
+    height:100%;
+    background:#3C2314;
+    color:#fff;
+}
+.collect-after{
+    font-size: 20px;
+    position: absolute;
+}
+.collect-before{
+    font-size: 20px;
+    color:#f00;
+}
+.del-img{
+    display: flex;
+    flex-direction: column;
+}
+.del-img image{
+    width:100%;
+}
+/*选择*/
+.select_specs{
+    width:100%;
+}
+
+.select_top{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 150rpx;
+}
+.xiaotu{
+    padding-top:20rpx;
+    padding-left:20rpx;
+    width:150rpx;
+    height:150rpx;
+    box-sizing: border-box;
+}
+.select-title{
+    font-size:16px;
+}
+.select-price{
+    color:#f00;
+}
+/*关闭箭头*/
+.close{
+    color:#ccc;
+    width:50rpx;
+    height:50rpx;
+    align-self: flex-start;
+}
+/*111*/
+.option{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300rpx;
+    background: #fff;
+}
+.option-item{
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    width: 48%;
+    height: 120rpx;
+    border-radius: 5px;
+    color:rgb(48, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option-item:first{
+    position: relative;
+}
+.option-item button{
+    background: #FF6E40;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top:6%;
+    left: 2%;
+}
+.selected{
+    border: 1px solid #FF6E40;
+}

@@ -1,0 +1,61 @@
+/*轮播图*/
+.slider,.slider image,.slider swiper{
+  width:100%;
+  height:400rpx;
+}
+
+/*8个小格子*/
+.index-nav{
+  display:flex;
+  flex-wrap:wrap;
+}
+.index-nav .nav-item{
+  display:flex;
+  width:25%;
+  height:200rpx;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  color:#3C2314;
+  font-size:14px;
+  box-sizing: border-box; 
+}
+
+.index-nav .nav-item image{
+  width:65rpx;
+  height:65rpx;
+}
+
+/**/
+.index-floot{
+  font-size:15px;
+  display: flex;
+  padding-left:10rpx;
+  justify-content:center;
+  align-items: center;
+}
+.index-floot image{
+  width:25px;
+  height:25px;
+}
+/*新品推荐模块*/
+.index-new{
+  width:90%;
+  border:1px solid #ddd;
+  box-shadow:0 0 8px #ccc;
+  margin:0 auto 20rpx;
+  box-sizing: border-box;
+  border-radius:8px;
+  font-size:14px; 
+  
+}
+.new-img{
+  width:100%;
+  height:200px;
+  border-radius:8px;
+}
+.new-title{
+  font-size:16px;
+  margin:25rpx;
+  color:#3C2314;
+}

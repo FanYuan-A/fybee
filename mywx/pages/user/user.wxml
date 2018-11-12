@@ -1,0 +1,45 @@
+<view class="avatar">
+    <image src="/assets/images/personal.png" mode="aspectFill" lazy-load class="bg-img"/>
+    <image src="/assets/img/avatar.png" mode="aspectFill" lazy-load class="avatar-img"/>
+</view>
+<view class="lookitem arrow">
+    查看订单
+    <text class="lookAll">查看全部</text>
+</view>
+<view class="lookstate">
+    <navigator class="lookstate-item">
+        <image src="/assets/img/123.png" mode="aspectFill" lazy-load/>
+        <text>待付款</text>
+    </navigator>
+    <navigator class="lookstate-item">
+        <image src="/assets/img/123.png" mode="aspectFill" lazy-load/>
+        <text>待发货</text>
+    </navigator>
+    <navigator class="lookstate-item">
+        <image src="/assets/img/123.png" mode="aspectFill" lazy-load/>
+        <text>待收货</text>
+    </navigator>
+    <navigator class="lookstate-item">
+        <image src="/assets/img/123.png" mode="aspectFill" lazy-load/>
+        <text>待评价</text>
+    </navigator>
+</view>
+<view class="bghui"></view>
+<view class="lookitem arrow">
+    我的收藏
+</view>
+<view class="lookitem arrow">
+    优惠券
+</view>
+<view class="lookitem arrow">
+    地址管理
+</view>
+<view class="lookitem arrow">
+    绑定手机
+</view>
+<view class="lookitem arrow">
+    意见反馈
+</view>
+<view class="lookitem arrow">
+    联系我们
+</view>
