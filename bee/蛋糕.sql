@@ -1,3 +1,10 @@
+#bee.sql 项目数据库脚本文件
+#1:创建库 bee
+CREATE DATABASE bee CHARSET=utf8;
+
+#2:进入 bee
+USE bee;
+
 #蛋糕表
 CREATE TABLE `bee_cake` (
 	`id` INT(10) NOT NULL AUTO_INCREMENT,
@@ -11,19 +18,115 @@ CREATE TABLE `bee_cake` (
 	UNIQUE KEY `uk_cake_name` (`name`)
 ) DEFAULT CHARSET=utf8;
 
-INSERT INTO `bee_cake` VALUES (NULL,'桃芝|樱桃芝士蛋糕','1','4','有种美好本在人生际遇之处, 那些初次的余香，俨如口中混合着的丝缕酸甜, 就像樱桃和百利甜一样，成了没人遗忘的天生一对。','a,b,c','一堆图片');
+INSERT INTO `bee_cake` VALUES (NULL,'桃芝|樱桃芝士蛋糕','1','4','有种美好本在人生际遇之处, 那些初次的余香，俨如口中混合着的丝缕酸甜, 就像樱桃和百利甜一样，成了没人遗忘的天生一对。','http://images.ebeecake.com/img_w/3593.jpg,http://images.ebeecake.com/img_w/3594.jpg,http://images.ebeecake.com/img_w/3595.jpg','http://images.ebeecake.com/img_w/3266.jpg,http://images.ebeecake.com/img_w/3267.jpg,http://images.ebeecake.com/img_w/3268.jpg,http://images.ebeecake.com/img_w/3269.jpg,
+http://images.ebeecake.com/img_w/3270.jpg,
+http://images.ebeecake.com/img_w/3271.jpg,
+http://images.ebeecake.com/img_w/3272.jpg,
+http://images.ebeecake.com/img_w/3273.jpg,
+http://images.ebeecake.com/img_w/3274.jpg,
+http://images.ebeecake.com/img_w/3275.jpg,
+http://images.ebeecake.com/img_w/3276.jpg,
+http://images.ebeecake.com/img_w/3277.jpg,
+http://images.ebeecake.com/img_w/3278.jpg');
 INSERT INTO `bee_cake` VALUES (NULL,'初心|牛油果低脂蛋糕','3','1','牛油果的清香弥漫在口腔，和着乳清奶酪咀嚼，
 仿佛热带的阳光，洒满心房，也惊叹牛油果的神奇，
-包容所有的味道，升华所有的味觉，伟大的感动，总在不言中。','a,b,c','一堆图片');
+包容所有的味道，升华所有的味觉，伟大的感动，总在不言中。','http://images.ebeecake.com/img_w/3545.jpg,http://images.ebeecake.com/img_w/3646.jpg,http://images.ebeecake.com/img_w/3647.jpg','http://images.ebeecake.com/img_w/3058.jpg,http://images.ebeecake.com/img_w/3059.jpg,http://images.ebeecake.com/img_w/3060.jpg,http://images.ebeecake.com/img_w/3061.jpg,
+http://images.ebeecake.com/img_w/3062.jpg,
+http://images.ebeecake.com/img_w/3063.jpg,
+http://images.ebeecake.com/img_w/3064.jpg,
+http://images.ebeecake.com/img_w/3065.jpg,
+http://images.ebeecake.com/img_w/3066.jpg,
+http://images.ebeecake.com/img_w/3067.jpg,
+http://images.ebeecake.com/img_w/3068.jpg,
+http://images.ebeecake.com/img_w/3069.jpg,
+http://images.ebeecake.com/img_w/3070.jpg,
+http://images.ebeecake.com/img_w/3071.jpg');
 INSERT INTO `bee_cake` VALUES (NULL,'热恋|玫瑰慕斯蛋糕','1','1','深情犹如芳香的玫瑰酱，挑战你挑剔的味蕾，回味悠长，无力抗拒；
 没有疲倦，无尽纠缠，沉浸在幸福海洋；
-只有爱着的才能体会那永远深藏。','a,b,c','一堆图片');
-INSERT INTO `bee_cake` VALUES (NULL,'我愿意|玫瑰荔枝慕斯蛋糕','3','2','亲爱的，我爱你，以后就这样看着你，每一天有同样呼吸，你是否愿意？亲爱的，我需要你，再往前走那一小步，准备了你要的幸福，等你说：我愿意，这是世间最动人的回应！','a,b,c','一堆图片');
+只有爱着的才能体会那永远深藏。','http://images.ebeecake.com/img_w/3611.jpg,http://images.ebeecake.com/img_w/3612.jpg,http://images.ebeecake.com/img_w/3613.jpg','http://images.ebeecake.com/img_w/3342.jpg,
+http://images.ebeecake.com/img_w/3343.jpg,
+http://images.ebeecake.com/img_w/3344.jpg,
+http://images.ebeecake.com/img_w/3345.jpg,
+http://images.ebeecake.com/img_w/3346.jpg,
+http://images.ebeecake.com/img_w/3347.jpg,
+http://images.ebeecake.com/img_w/3348.jpg,
+http://images.ebeecake.com/img_w/3349.jpg,
+http://images.ebeecake.com/img_w/3350.jpg,
+http://images.ebeecake.com/img_w/3351.jpg,
+http://images.ebeecake.com/img_w/3352.jpg,
+http://images.ebeecake.com/img_w/3353.jpg,
+http://images.ebeecake.com/img_w/3354.jpg');
+INSERT INTO `bee_cake` VALUES (NULL,'我愿意|玫瑰荔枝慕斯蛋糕','3','2','亲爱的，我爱你，以后就这样看着你，每一天有同样呼吸，你是否愿意？亲爱的，我需要你，再往前走那一小步，准备了你要的幸福，等你说：我愿意，这是世间最动人的回应！','http://images.ebeecake.com/img_w/4023.jpg,http://images.ebeecake.com/img_w/4024.jpg,http://images.ebeecake.com/img_w/4025.jpg','http://images.ebeecake.com/img_w/4030.jpg,
+http://images.ebeecake.com/img_w/4031.jpg,
+http://images.ebeecake.com/img_w/4032.jpg,
+http://images.ebeecake.com/img_w/4033.jpg,
+http://images.ebeecake.com/img_w/4034.jpg,
+http://images.ebeecake.com/img_w/4035.jpg,
+http://images.ebeecake.com/img_w/4036.jpg,
+http://images.ebeecake.com/img_w/4037.jpg,
+http://images.ebeecake.com/img_w/4038.jpg,
+http://images.ebeecake.com/img_w/4039.jpg,
+http://images.ebeecake.com/img_w/4040.jpg,
+http://images.ebeecake.com/img_w/4041.jpg,
+http://images.ebeecake.com/img_w/4042.jpg,
+http://images.ebeecake.com/img_w/4043.jpg,
+http://images.ebeecake.com/img_w/4044.jpg,
+http://images.ebeecake.com/img_w/4045.jpg,
+http://images.ebeecake.com/img_w/4046.jpg,
+http://images.ebeecake.com/img_w/4047.jpg,
+http://images.ebeecake.com/img_w/4048.jpg,
+http://images.ebeecake.com/img_w/4049.jpg,
+http://images.ebeecake.com/img_w/4050.jpg,
+http://images.ebeecake.com/img_w/4051.jpg,
+http://images.ebeecake.com/img_w/4052.jpg
+');
 INSERT INTO `bee_cake` VALUES (NULL,'简单|蜂蜜蛋糕','2','1','缘份是城市里命定的希望，我们注定快乐，但却远离喧嚣。
 一种天使般的淡然，就像甜杏仁牵手热情果般的美妙滋味，
-忽视了谁，都不显完整。','a,b,c','一堆图片');
-
-
+忽视了谁，都不显完整。','http://images.ebeecake.com/img_w/3620.jpg,http://images.ebeecake.com/img_w/3621.jpg,http://images.ebeecake.com/img_w/3622.jpg','
+http://images.ebeecake.com/img_w/3380.jpg,
+http://images.ebeecake.com/img_w/3381.jpg,
+http://images.ebeecake.com/img_w/3382.jpg,
+http://images.ebeecake.com/img_w/3383.jpg,
+http://images.ebeecake.com/img_w/3384.jpg,
+http://images.ebeecake.com/img_w/3385.jpg,
+http://images.ebeecake.com/img_w/3386.jpg,
+http://images.ebeecake.com/img_w/3387.jpg,
+http://images.ebeecake.com/img_w/3388.jpg,
+http://images.ebeecake.com/img_w/3389.jpg,
+http://images.ebeecake.com/img_w/3390.jpg,
+http://images.ebeecake.com/img_w/3391.jpg,
+http://images.ebeecake.com/img_w/3392.jpg
+');
+INSERT INTO `bee_cake` VALUES (NULL,'倾慕|抹茶慕斯蛋糕','1','1','碧云引风吹不断，白花浮光凝碗面”唐朝就有对抹茶的赞美，抹茶的浓郁与糖粉恰到好处的水乳交融。蛋糕蓬松柔软的触感，传递到舌尖是裹着奶香淡奶油的抹茶香。毫不逊色的优雅，清淡到恰如其分。','http://images.ebeecake.com/img_w/3539.jpg,http://images.ebeecake.com/img_w/3540.jpg,http://images.ebeecake.com/img_w/3541.jpg','
+http://images.ebeecake.com/img_w/3033.jpg,
+http://images.ebeecake.com/img_w/3034.jpg,
+http://images.ebeecake.com/img_w/3035.jpg,
+http://images.ebeecake.com/img_w/3036.jpg,
+http://images.ebeecake.com/img_w/3037.jpg,
+http://images.ebeecake.com/img_w/3038.jpg,
+http://images.ebeecake.com/img_w/3039.jpg,
+http://images.ebeecake.com/img_w/3040.jpg,
+http://images.ebeecake.com/img_w/3041.jpg,
+http://images.ebeecake.com/img_w/3042.jpg,
+http://images.ebeecake.com/img_w/3043.jpg,
+http://images.ebeecake.com/img_w/3044.jpg,
+http://images.ebeecake.com/img_w/3045.jpg
+');
+INSERT INTO `bee_cake` VALUES (NULL,'倾慕|蛋糕7','1','1','碧云引风吹不断，白花浮光凝碗面”唐朝就有对抹茶的赞美，抹茶的浓郁与糖粉恰到好处的水乳交融。蛋糕蓬松柔软的触感，传递到舌尖是裹着奶香淡奶油的抹茶香。毫不逊色的优雅，清淡到恰如其分。','http://images.ebeecake.com/img_w/3539.jpg,http://images.ebeecake.com/img_w/3540.jpg,http://images.ebeecake.com/img_w/3541.jpg','
+http://images.ebeecake.com/img_w/3033.jpg,
+http://images.ebeecake.com/img_w/3034.jpg,
+http://images.ebeecake.com/img_w/3035.jpg,
+http://images.ebeecake.com/img_w/3036.jpg,
+http://images.ebeecake.com/img_w/3037.jpg,
+http://images.ebeecake.com/img_w/3038.jpg,
+http://images.ebeecake.com/img_w/3039.jpg,
+http://images.ebeecake.com/img_w/3040.jpg,
+http://images.ebeecake.com/img_w/3041.jpg,
+http://images.ebeecake.com/img_w/3042.jpg,
+http://images.ebeecake.com/img_w/3043.jpg,
+http://images.ebeecake.com/img_w/3044.jpg,
+http://images.ebeecake.com/img_w/3045.jpg
+');
 #蛋糕分类表
 CREATE TABLE `bee_cake_classify` (
 	`id` INT(10) NOT NULL AUTO_INCREMENT,
@@ -190,14 +293,13 @@ CREATE TABLE bee_index_lunbo(
   `id` INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `img_url` VARCHAR(255) NOT NULL COMMENT '轮播图路径',
   `href` VARCHAR(128) NOT NULL COMMENT '商品跳转路径',
-  `title` VARCHAR(64) NOT NULL COMMENT '轮播标题',
-   PRIMARY KEY (`id`),
+  `title` VARCHAR(64) NOT NULL COMMENT '轮播标题'
 );
 INSERT INTO `bee_index_lunbo` VALUES
-(NULL,'http:127.0.0.1:8625/img/hd/180906/wb.jpg','图片1',NULL),
-(NULL,'http:127.0.0.1:8625/img/hd/180828/wb.jpg','图片1',NULL),
-(NULL,'http:127.0.0.1:8625/img/hd/180802/wb.jpg','图片1',NULL),
-(NULL,'http:127.0.0.1:8625/img/hd/180615/wb.jpg','图片1',NULL);
+(NULL,'http://127.0.0.1:8625/img/hd/180906/wb.jpg','图片1',NULL),
+(NULL,'http://127.0.0.1:8625/img/hd/180828/wb.jpg','图片2',NULL),
+(NULL,'http://127.0.0.1:8625/img/hd/180802/wb.jpg','图片3',NULL),
+(NULL,'http://127.0.0.1:8625/img/hd/180615/wb.jpg','图片4',NULL);
 
 #通过id查询某一个蛋糕,一条sql顺便把尺寸表的信息请求回来
 SELECT bc.*,bcs.size,bcs.weight,bcs.tableware_num,bcs.eating_num,bcs.price,bcs.send_time,bcs.specification_url FROM bee_cake bc
